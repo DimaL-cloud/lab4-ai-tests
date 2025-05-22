@@ -4,7 +4,7 @@ import logging
 from dotenv import load_dotenv
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_core.messages import HumanMessage
-from browser_use import Agent, Browser  # бібліотека повинна бути в проєкті
+from browser_use import Agent, Browser
 
 load_dotenv()
 logging.basicConfig(level=logging.INFO)
